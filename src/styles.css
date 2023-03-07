@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  margin: 0px !important;
+}
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component_container {
+  position: relative;
+}
+
+.main {
+  display: grid;
+  gap: 1em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  font-size: 8px;
+}
+
+.btn {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .2rem;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin: 10px;
+}
+
+.btn-content {
+  text-align: center!important;
+}
